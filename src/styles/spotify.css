@@ -27,6 +27,13 @@
     overflow: hidden;
 }
 
+#song-name
+{
+    max-width: 300px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
 #song-container a
 {
     text-decoration: none;

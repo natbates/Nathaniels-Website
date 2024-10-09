@@ -79,6 +79,20 @@ figcaption
 
     #home
     {
+        margin-top: 200px;
         text-align: center;
+    }
+
+    #home h1 {
+        font-size: 2rem !important;
+    }
+
+    #home p {
+        font-size: 1rem !important;
+    }
+
+    #contact-me
+    {
+        width: 200px;
     }
 }

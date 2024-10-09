@@ -35,7 +35,7 @@ const Spotify = () => {
                     <p>
                         <span><SpotifyIcon style={{ width: '18px', height: '18px', marginRight: '10px' }} /></span>
                         Listening to: 
-                        <a href={currentSongData.item.external_urls.spotify} target="_blank" rel="noopener noreferrer">
+                        <a id = "song-name" href={currentSongData.item.external_urls.spotify} target="_blank" rel="noopener noreferrer">
                              {currentSongData.item.name}
                         </a>
                          By
