@@ -1,0 +1,35 @@
+/* theme button.css */
+
+.theme-button
+{
+    position: relative;
+    padding-top: 55%;
+    margin: 15%;
+    border: 3px solid var(--primary-color);
+    background-color: transparent;
+    transition: transform 0.3s ease, border 0.3s ease;
+    border-radius: 50%;
+}
+
+.theme-button:hover
+{
+    transform: scale(1.1);
+    border-color: var(--third-color);
+}
+
+@media (max-width: 768px) 
+{
+    .theme-button
+    {
+        display: none; /* only dark mode for mobile */
+        position: fixed;
+        justify-self: flex-end;
+        align-self: flex-end;
+        left: 0;
+        bottom: 10px;
+        padding: 0;
+        margin: 10px;;
+        width: 40px;
+        height: 40px;
+    }
+}
