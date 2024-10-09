@@ -28,7 +28,7 @@ p{
     height: 80vh;
 }
 
-button, input
+button, input, textarea
 {
     font-family: "source";
 }
