@@ -148,4 +148,12 @@ form button:hover
         max-height: 100%;
         text-align: center;
     }
+
+    #contact h1 {
+        font-size: 1.5em; 
+    }
+
+    #contact p {
+        font-size: 0.8em;
+    }
 }

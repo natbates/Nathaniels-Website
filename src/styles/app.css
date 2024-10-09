@@ -123,4 +123,10 @@ body {
         margin-left: 0px;
         margin-right: 0px;
     }
+
+    .content
+    {
+        margin-top: 70px;
+        height: 100%;
+    }
 }
