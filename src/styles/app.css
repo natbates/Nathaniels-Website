@@ -20,7 +20,8 @@
 }
 
 p{
-    color: var(--secondary-color);
+    color: var(--primary-color);
+    filter: brightness(0.7) invert(0.1);
 }
 
 .content
