@@ -9,9 +9,9 @@ const SocialLinks = () =>
     return (
         <div className="social-container">
             <ThemeButton />
-            <a href = "/" target="_blank"><DiscordIcon className = "svg"/></a>
-            <a href = "/" target="_blank"><GithubIcon className = "svg"/></a>
-            <a href = "/" target="_blank"><LinkedInIcon className = "svg"/></a>
+            <a href = "https://discord.com/users/1024815470836187187" target="_blank"><DiscordIcon className = "svg"/></a>
+            <a href = "https://github.com/natbates" target="_blank"><GithubIcon className = "svg"/></a>
+            <a href = "www.linkedin.com/in/nathaniel-bates-69b8b9266" target="_blank"><LinkedInIcon className = "svg"/></a>
         </div>
     );
 }
