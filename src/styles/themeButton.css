@@ -2,19 +2,27 @@
 
 .theme-button
 {
-    position: relative;
-    padding-top: 55%;
-    margin: 15%;
     border: 3px solid var(--primary-color);
     background-color: transparent;
     transition: transform 0.3s ease, border 0.3s ease;
     border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    padding: 0;
 }
 
 .theme-button:hover
 {
     transform: scale(1.1);
     border-color: var(--third-color);
+}
+
+#lightmode-img
+{
+    width: 15px;
+    height: auto;
+    fill: var(--primary-color);
 }
 
 @media (max-width: 768px) 
