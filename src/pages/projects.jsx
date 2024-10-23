@@ -31,7 +31,7 @@ const Projects = () => {
     return (
         <div id="project-page-container">
             <h1>Projects</h1>
-            <p>Here are some of my favourite projects!</p>
+            <p>Here are some of my favourite projects! To view the websites check the README.md of the github repos.</p>
             <div id="project-container">
                 {projects.length > 0 ? 
                     projects.map((project, index) => (
